@@ -1,5 +1,4 @@
 # Assignment Overview: UI Challenge 1
-### DUE: 1:59pm on 
 
 ## Create a responsive webpage from a provided design comp
 
