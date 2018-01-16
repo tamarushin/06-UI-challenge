@@ -1,0 +1,32 @@
+h1 { 
+    font-size: 18px;
+    position: centered;
+   
+}
+
+.heading-top-a {
+    background-image: url("https://placehold.it/960x100");
+    width: 960px;
+    height: 100px;
+    outline: 1px dotted black;
+
+}
+
+.left-sidebar-b {
+    background-image: url("https://placehold.it/200x600");
+    width: 200px;
+    height: 600px;
+    outline: 1px dotted black;
+
+}
+
+.upper-c-d {
+    background-image: url("https://placehold.it/380x200");
+    width: 760px;
+    height: 200px;
+    outline: 1px dotted black;
+   margin-right: 100px;
+   
+}
+
+@media only screen and (min-width: 800px) 
