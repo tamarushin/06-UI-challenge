@@ -1,9 +1,9 @@
 body {
     border: 1px solid black;
     width: 480px;
-    /* height: 768px; */
+    /* height: 768px;  */
     box-sizing: border-box;
-}
+} 
 
 #top-a {
     height: 75px;
@@ -40,12 +40,12 @@ body {
     height: 500px;
 }
 
-/* .four {
+.four {
     height: 50%;
     width: 50%;
     border: 1px solid black;
     box-sizing: border-box;
-} */
+}
 
 #left-e{
     height: 50%;
@@ -84,6 +84,86 @@ footer {
     height: 80px;
 }
 
-@media only screen and(min-width: 481px) {
-    
+@media only screen and(max-width: 480px) {
+    body {
+        width: 960px;
+        border: 1px solid black;
+        box-sizing: border-box;
+        text-align: left;
+    }
+
+    #top-a {
+        height: 100px;
+        box-sizing: border-box;
+        border:1px solid black;
+    }
+
+    #top-b {
+        height: 600px;
+        width: 200px;
+        float: left;
+        box-sizing: border-box;
+        border: 1px solid black;
+    }
+
+    #see-dee {
+        height: 200px;
+        width: 760px;
+    }
+
+    #middle-c {
+        float: left;
+        box-sizing: border-box;
+        border: 1px solid black;
+        width: 50%;
+    }
+
+    #middle-d {
+        float: right;
+        box-sizing: border-box;
+        border: 1px solid black;
+        width: 50%;
+    }
+
+    #four-square {
+        width: 760px;
+        height: 250px;
+    }
+
+    #left-e {
+        float: left;
+        box-sizing: border-box;
+        border: 1px solid black;
+        width: 25%;
+    }
+
+     #right-f{
+        /* float: left; */
+        box-sizing: border-box;
+        border: 1px solid black;
+        width: 25%;
+    }
+
+     #bottom-left-g{
+        /* float: left; */
+        box-sizing: border-box;
+        border: 1px solid black;
+        width: 25%;
+    }
+
+     #bottom-right-h {
+        float: right;
+        box-sizing: border-box;
+        border: 1px solid black;
+        width: 25%;
+    }
+
+    #foot {
+        height: 150px;
+        width: 760px;
+        box-sizing: border-box;
+        border: 1px solid black;
+
+    }
+
 }
